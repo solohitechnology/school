@@ -1,0 +1,73 @@
+.become-instructor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 130px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .become-instructor h1 {
+    text-align: center;
+    font-size: 36px;
+    color: black;
+    background-color: skyblue;
+    margin-bottom: 20px;
+    border-radius: 2px 2px 100px 100px;
+  }
+  
+  .become-instructor p {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 30px;
+  }
+  
+  .instructor-benefits h2 {
+    font-size: 25px;
+    font-weight:bold;
+    color: black;
+    background-color: skyblue;
+    border-radius: 2px 2px 100px 100px ;
+    margin-bottom: 10px;
+  }
+  
+  .instructor-benefits ul {
+    list-style: disc;
+    padding-left: 30px;
+    font-size: 19px;
+    color: #333;
+    font-weight:bold ;
+    /* background-color: #003177; */
+    margin-bottom: 30px;
+  }
+  
+  .instructor-cta {
+    text-align: center;
+  }
+  
+  .instructor-cta p {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .instructor-btn {
+    display: inline-block;
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .instructor-btn:hover {
+    background-color: #003177;
+  }
+  

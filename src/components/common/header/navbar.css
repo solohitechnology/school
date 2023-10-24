@@ -1,0 +1,165 @@
+/* navbar.css */
+
+/* Basic Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+    list-style: none;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ff9900;
+  }
+  
+  /* Dropdown Styles */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-btn {
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #524c4c;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Mobile Menu Icon Styles */
+  .mobile-menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: transform 0.3s;
+  }
+  
+  .close {
+    transform: rotate(-45deg) translate(-2px, 2px);
+  }
+  
+  /* User Section Styles */
+  .user-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-menu {
+    position: relative;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .user-name {
+    margin-left: 10px;
+    font-weight: 600;
+  }
+  
+  .user-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    top: 50px;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .user-menu:hover .user-dropdown {
+    display: block;
+  }
+  
+  .user-dropdown li {
+    list-style: none;
+  }
+  
+  .user-dropdown a,
+  .logout-button {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+  }
+  
+  .user-dropdown a:hover,
+  .logout-button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .login-button {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #ffcc66;
+  }
+  
+
+.my_acount {
+    display: none;
+}

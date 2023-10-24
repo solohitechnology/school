@@ -1,0 +1,45 @@
+.policy {
+    width: 100%;
+}
+
+.policy .policy_div h1 {
+}
+
+.policy h1 {
+    width:'200px';
+    margin-top: 130px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-right: 200px;    
+    color: black;
+    background: skyblue;
+ }
+
+.policy h2 {
+   color: black;
+   border-radius: 8px;
+   background: skyblue;
+   margin-left: 300px;
+   margin-right: 300px;
+}
+
+.policy p {
+    width: 700px;
+    margin: 30px;
+    margin-left: 350px;
+}
+
+@media screen and (max-width:590px) {
+
+    .policy {
+        margin-top: 150px;
+    }
+
+    .policy p {
+        width: 300px;
+        margin: 30px;
+    }
+
+}
+

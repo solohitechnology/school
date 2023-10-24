@@ -1,0 +1,104 @@
+.myemail-container1 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .myemail-title1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .seminars-container1 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr)); 
+    grid-gap: 20px;
+  }
+  
+  
+  @media (max-width: 767px) {
+    .myemail-container1 {
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      .myemail-title1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      
+      .seminars-container1 {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(300px, 1fr)); 
+        grid-gap: 20px;
+      }
+
+    .seminar-item1 {
+        background-color: #f5f5f5;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      .seminar-item1 h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      .seminar-item1 img {
+        width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      
+      .seminar-item1 button {
+        color: gold;
+        font-size: 20px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
+   
+  }
+  
+  .seminar-item1 {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .seminar-item1 h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .seminar-item1 img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .seminar-item1 button {
+    color: gold;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+
+  @media screen and (max-width: 590px)  {
+    .imagwe2 {
+      width: 400px;
+      height: auto;
+    }
+  }
+  

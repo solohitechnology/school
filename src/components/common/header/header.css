@@ -1,0 +1,488 @@
+.headerPrimary {
+  color: #3c3b37;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0px 10px;
+  /* position: relative; */
+  font-size: 14px;
+  overflow-y: hidden;
+  letter-spacing: normal;
+  box-shadow: 0px 1px 6px rgb(199, 198, 198);
+  background-color: white;
+}
+
+.headerPrimary .courses_list {
+  position: absolute;
+  z-index: 99;
+  background-color: skyblue;
+  margin-top: 30px;
+  width:auto;
+  opacity: 0.9;
+  border-radius: 9px;
+  display: flex;
+  justify-content: space-around;
+  /* display: none; */
+
+}
+
+/* .headerPrimary .searchBar:focus + .headerPrimary .courses_list {
+  display: block;
+  } */
+
+  .headerPrimary .searchBar:hover .headerPrimary .courses_list{
+ display: block;
+  }
+.headerPrimary .courses_list .left-course {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.headerPrimary .courses_list ul li {
+  padding: 10px;
+  font-size: 15px;
+}
+
+
+
+.headerPrimary .courses_list ul li a {
+  color: black;
+  font-weight: bold;
+  font-family: monospace;
+
+}
+
+
+
+
+.headerPrimary .courses_list ul li a:hover {
+  color: #ffffff;
+}
+
+
+
+
+.headerPrimary .ogenduLogo {
+  height: 100%;
+  display: flex;
+  /* background-color: blue; */
+  text-align: center;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+}
+
+.ogendu-logo {
+  width: 150px;
+  text-align: center;
+  height: 100px;
+
+
+}
+
+.ogendu-logo img {
+  margin-top: 30px;
+   padding: 10px;
+  width:100%;
+
+  /* height: 55px; */
+}
+
+.headerPrimary .part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerPrimary .part * {
+  margin: 0px 2px;
+}
+
+.headerPrimary .mid {
+  width: 30%;
+  position: relative;
+  overflow-y: hidden;
+  /* margin-right: ; */
+  margin-left: 30px;
+}
+
+.headerPrimary .searchBar {
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  border: 2px skyblue solid;
+  font-size: 0.9rem;
+  height: 45px;
+  width: 100%;
+  padding-left: 7%;
+}
+
+.headerPrimary .searchBar:focus {
+  display: block;
+  border-color: skyblue;
+}
+
+
+
+.headerPrimary .searchIcon {
+  height: 48px;
+  width: 50px;
+  position: absolute;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerPrimary .right {
+  margin-right: 50px;
+}
+
+.headerPrimary .right .teachDiv {
+  display: flex;
+  /* color: white; */
+  /* margin-right: 60px; */
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  /* background-color: navy; */
+}
+
+.headerPrimary .right .teachDiv li {
+  /* background-color: royalblue; */
+  text-align: center;
+  font-size: 15px;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+}
+
+.headerPrimary .right .teachDiv li a {
+  color: black;
+  font-weight: bold;
+}
+
+.headerPrimary .right .teachDiv .what-we-do .dropdown {
+  display: none;
+  margin-right: 100px;
+}
+
+.headerPrimary .right .teachDiv .what-we-do .dropdown ul li {
+  padding: 15px;
+}
+
+.headerPrimary .right .teachDiv .what-we-do:hover .dropdown {
+  display: flex;
+  background-color: skyblue;
+  border-radius: 2px;
+  opacity: 0.9;
+  position: absolute;
+  text-align: center;
+  z-index: 9999;
+  justify-content: space-around;
+}
+
+.headerPrimary .right .teachDiv .what-we-do {
+  color: black;
+  font-family: monospace;
+  font-size: 20px;
+  border: 2px solid skyblue;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-left: 30%;
+  margin-right: 0;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.headerPrimary .right .teachDiv .what-we-do:hover {
+  background-color: skyblue;
+  border: 2px solid gray;
+  color: white;
+  cursor: pointer;
+}
+
+.headerPrimary .right .teachDiv .what-we-do:hover .dropdown li a:hover {
+  color: white;
+  border-bottom: 3px solid white;
+  font-weight: bold;
+}
+
+.headerPrimary .right .teachDiv li {
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.headerPrimary .right .teachDiv li :hover {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.headerPrimary .right .library {
+  background-color: skyblue;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.headerPrimary .right .library a {
+  color: black;
+}
+.headerPrimary .left {
+  margin-right: 50px;
+  background-color: yellow;
+  text-align: center;
+  height: 100px;
+  width: 900px;
+}
+
+.headerPrimary .buttons {
+  display: flex;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.headerPrimary .buttons li {
+  background-color: skyblue;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.headerPrimary .buttons li a {
+  color: black;
+}
+
+.headerPrimary .icon {
+  color: #73726c;
+  cursor: pointer;
+}
+
+.headerPrimary .icon:hover {
+  color: #ffffff;
+  background-color: skyblue;
+}
+
+.headerPrimary span {
+  cursor: pointer;
+}
+
+/* Your CSS stylesheet */
+.user-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid skyblue;
+  width: 50px;
+  height: 50px;
+  /* Background color */
+  border-radius: 50%; /* Make it a circle */
+}
+
+.user-icon {
+  color: gray; /* Icon color */
+  font-size: 24px; /* Icon size */
+}
+
+
+/* Add this CSS to your header.css file or style block */
+.menu-item {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px; /* Adjust spacing as needed */
+}
+
+.submenu {
+  
+background-color: rgb(187, 217, 229);
+  top: 100%;
+  left: 70;
+  display: none;
+  transition: all 0.3s ease; /* Add smooth transition effect */
+  opacity: 0; /* Initially, make it transparent */
+  transform: translateY(-10px); 
+  border-radius: 5px;
+
+
+}
+
+.menu-item:hover .submenu {
+  height: auto;
+  width: auto;
+  display: block;
+  opacity: 1; /* Make it fully visible */
+  transform: translateY(0);
+
+ 
+}
+
+.headerPrimary .link-menu {
+/* 
+  background-color: blue; */
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.headerPrimary .link-menu li a {}
+
+
+
+
+
+
+
+/* Header styles for screens smaller than or equal to 768px */
+@media (max-width: 768px) {
+  .headerPrimary {
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  /* .headerPrimary .logo {
+    position: absolute;
+    top: 0;
+  } */
+
+  .headerPrimary .ogendu-logo {
+    width: 100%;
+    /* background-color: yellow; */
+  }
+
+  .headerPrimary .mid {
+    width: 80%;
+    position: relative;
+    overflow-y: hidden;
+    /* margin-right: ; */
+    /* margin-left: 30px; */
+  }
+
+  .headerPrimary .searchBar {
+    height: 35px;
+  }
+
+  .headerPrimary .searchIcon {
+    height: 38px;
+  }
+
+  .headerPrimary .right,
+  .headerPrimary .left {
+    margin-right: 10px;
+  }
+
+  .headerPrimary .right {
+    /* background-color: aquamarine; */
+  }
+
+  .headerPrimary .right .teachDiv .what-we-do .dropdown li {
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: 6px;
+  }
+
+  .headerPrimary .right .library {
+    font-size: 14px;
+    display: none;
+  }
+
+  .headerPrimary .left {
+    width: auto;
+    /* background-color: yellow; */
+  }
+
+  .headerPrimary .right .teachDiv .what-we-do .dropdown {
+    position: absolute;
+    padding-right: 200px;
+    left: 0px;
+  }
+
+  .headerPrimary .right .teachDiv .what-we-do {
+    border: 2px solid skyblue;
+    font-size: 13px;
+    width: 200px;
+    margin-right: 0px;
+    /* margin-left: 200px; */
+    padding: 5px;
+  }
+
+  
+
+  .headerPrimary .right .teachDiv .who-we-are {
+    display: none;
+  }
+
+  .headerPrimary .right .teachDiv .what-we-do span {
+
+  }
+
+  .headerPrimary .buttons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 200px;
+  }
+
+  .headerPrimary .buttons li {
+    background-color: skyblue;
+    font-size: 12px;
+    width: 98px;
+  }
+
+  .user-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid skyblue;
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+  }
+
+  .headerPrimary .right .teachDiv {
+    margin-bottom: 50px;
+  }
+
+  .user-icon-container {
+    position: absolute;
+    top: 50;
+    right: 0;
+    margin-right: 40px;
+    margin-top: 150px;
+  }
+  .user-icon {
+    color: gray; /* Icon color */
+    font-size: 24px; /* Icon size */
+  }
+
+  /* Add more responsive styles as needed */
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+ .headerPrimary {
+  /* background-color: aquamarine; */
+ }
+
+ .teachDiv .what-we-do span {
+  font-size: 15px;
+ }
+ 
+
+}

@@ -1,0 +1,137 @@
+/* about1.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* About Page styles */
+  .about-container {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2rem; */
+    overflow-y: hidden;
+    border: 3px solid skyblue;
+    /* background-color: skyblue; */
+    height: 400px;
+  }
+  
+  .about-content {
+    flex: 1;
+    margin-right: 2rem;
+    height: 450px;
+  }
+  
+  .about-content h1 {
+    font-size: 2rem;
+    border: 2px solid white;
+    background-color: skyblue;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+    color: #555;
+    font-weight: 700;
+    border: 2px solid skyblue;
+    padding: 8px;
+    border-radius: 3px;
+  }
+  
+  .about-video {
+    flex: 1;
+    height: 390px;
+    overflow-y: hidden;
+  }
+  
+  .about-video video {
+    max-width: 100%;
+    border-radius: 5px;
+    border: 2px solid skyblue;
+    padding: 10px;
+    height:380px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+
+    
+    .about-container{
+      padding: 0px;
+    }
+
+    .about-content p {
+
+
+      
+    }
+    
+
+    .about-container {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+      /* background-color: green; */
+    }
+  
+    .about-content {
+      margin-right: 0;
+      /* margin-bottom: 2rem; */
+    }
+
+    .about-video {
+      flex: 1;
+      height: 30px;
+      overflow-y: hidden;
+   
+
+    }
+    
+    .about-video video {
+      margin-top: 0px;
+      height: 200px;
+    }
+  }
+
+
+  
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+
+  .about-content p {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #555;
+    font-weight: 700;
+    border: 2px solid skyblue;
+    padding: 8px;
+    border-radius: 3px;
+  }
+
+  .about-video video {
+   height: 369px;
+    width: 500px;
+    padding: 2px;
+
+  }
+
+  .about-container {
+    /* background: tan; */
+    border: none;
+  }
+
+
+}
+  

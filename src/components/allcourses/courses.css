@@ -1,0 +1,90 @@
+/* courses.css */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.course-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.online {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.course-link {
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.3s ease;
+  display: block;
+  width: 30%; /* Adjust this value based on your layout */
+}
+
+.course-link:hover {
+  transform: translateY(-5px);
+  color: gray;
+}
+
+.course-wrapper {
+  border: 2px solid skyblue;
+  border-radius: 5px;
+  height: 350px;
+  border-radius: 20px 30px 110px;
+  padding: 15px;
+  text-align: center;
+}
+
+.course-image img {
+  max-width: 100%;
+  height: 200px;
+  border-radius: 5px 10px 15px 50px;
+}
+
+.course-title {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.course-description {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .course-link {
+    width: 100%; /* Full width on smaller screens */
+    margin-bottom: 20px;
+  }
+}

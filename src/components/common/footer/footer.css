@@ -1,0 +1,420 @@
+/* footer.css */
+
+/* General styling */
+.footer {
+  background: skyblue; 
+  color: black;
+  font-weight: bold;
+  padding: 40px 0;
+}
+
+.footer-top {
+  display: flex;
+  background-color: skyblue;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1;
+  max-width: 300px;
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon-link {
+  font-size: 1.5rem;
+  color: white;
+  transition: color 0.3s;
+}
+
+.icon-link:hover {
+  color: lightgray;
+}
+
+.footer-bottom {
+  background: whitesmoke;
+  color: black;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-logo img {
+  margin-left: 5px;
+  max-width: 100px;
+  height: auto;
+}
+
+.footer-policy-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  margin-right: 3px;
+  padding: 0;
+}
+
+.footer-policy-links li a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-policy-links li a:hover {
+  color: gray;
+}
+
+/* Newsletter section */
+.newletter {
+  background: skyblue; 
+  color: black;
+  padding: 40px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 1;
+  max-width: 500px;
+}
+
+.left h1 {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.right {
+  /* flex: 1; */
+  /* max-width: 300px; */
+  /* background-color: yellow; */
+  /* display: flex;
+  flex-direction: column; */
+  /* gap: 15px; */
+  margin-top: 20px;
+  align-items: center;
+}
+
+.right input[type="email"] {
+  /* border: 2px solid white; */
+  font-family: monospace;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  width: 100vw;
+}
+
+.right button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.right button:hover {
+  color: lightgray;
+}
+
+.footer legend {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    max-width: none;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .footer-bottom {
+    font-size: 11px;
+  }
+
+  .footer-bottom img{
+display: none;
+  }
+
+  .right {
+    width: 70%;
+    justify-content: center;
+    margin-left: 40px;
+  }
+
+  .right input {
+    width: 70px;
+    text-align: center;
+    color: white;
+  }
+
+}
+
+
+/* footer.css */
+
+/* General styling */
+/* .footer {
+  background: #2c3e50; 
+  color: white;
+  padding: 40px 0;
+} */
+
+/* Rest of your existing styles */
+
+/* Responsive adjustments */
+@media only screen and (max-width: 480px) {
+  /* iPhone 5, SE */
+  .footer-logo img {
+    max-width: 60px;
+  }
+
+  .left h1 {
+    font-size: 1rem;
+  }
+
+  .footer-top {
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* iPhone 6, 7, 8 */
+ .footer-top {
+
+ }
+
+  .footer-logo img {
+    max-width: 70px;
+  }
+
+  .left h1 {
+    font-size: 1.1rem;
+  }
+
+  .footer-top {
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* iPhone X, XS, 11 Pro, 12 Mini */
+  .footer-logo img {
+    max-width: 80px;
+  }
+
+  .left h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+  /* iPhone XR, 11, 12, 12 Pro */
+
+/* Footer */
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1;
+  max-width: 300px;
+}
+
+
+.footer-section .icon-link {
+
+  font-size: 20px;
+  text-align: justify;
+  
+  
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.social-icons {
+  margin-left: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.icon-link {
+  font-size: 1.5rem;
+  color: white;
+  transition: color 0.3s;
+}
+
+.icon-link:hover {
+  color: lightgray;
+}
+
+
+.footer-bottom {
+  background: whitesmoke;
+  color: black;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.footer-logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+
+.footer-policy-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.footer-policy-links li a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-policy-links li a:hover {
+  color: gray;
+}
+
+/* Newsletter section */
+.newletter {
+  background: skyblue; 
+  color: white;
+  padding: 40px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 1;
+  max-width: 500px;
+ 
+}
+
+.left h1 {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.right {
+  margin-top: 20px;
+  align-items: center;
+  /* background-color: blue; */
+}
+
+.right input[type="email"] {
+  border: 2px solid white;
+  font-family: monospace;
+  color: black;
+  padding: 10px;
+  width: 400px;
+}
+
+.subscribe-button {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.subscribe-button:hover {
+  background-color: white;
+  color: #2c3e50;
+}
+
+ footer .footer-top {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+
+}
+
+
+}
+

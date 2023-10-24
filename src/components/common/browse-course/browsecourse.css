@@ -1,0 +1,70 @@
+.top-div {
+    width: 100vw;
+    height: 50px;
+    background-color: skyblue;
+}
+
+.browse-course {
+    background-color:yellow ;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.browse-course .browse-first-child {
+width: 25%;
+height: 100vh;
+background-color: skyblue;
+}
+
+.browse-course .browse-secound-child {
+    width: 75%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.category {
+    /* background-color: yellowgreen; */
+    margin-bottom: 30px;
+    height: 100%;
+
+}
+
+.category ul {
+    /* margin-left: 10%;   margin-left: 10%; */
+    margin-top: 15px;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+}
+
+.category ul h4 {
+    color: whitesmoke;
+}
+
+
+
+.category ul li a {
+    color: rgb(83, 78, 78);
+    font-weight: bold;
+}
+
+
+.category ul li a:hover {
+   color:  white;
+}
+
+.category ul li a:active {
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+

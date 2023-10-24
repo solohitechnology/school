@@ -1,0 +1,73 @@
+/* awrapper.css */
+
+/* Style the awrapper section */
+.awrapper {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  /* Style the container for the cards */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Style the individual card boxes */
+  .box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    flex: 1;
+  }
+  
+  /* Add hover effect to the card */
+  .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the card image */
+  .imag img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  /* Style the data number */
+  h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  /* Style the card title */
+  h3 {
+    font-size: 18px;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  /* awrapper.css */
+
+/* Set the background image for the awrapper section */
+.awrapper {
+    background-image: url('../../../public/vt.png');
+    background-size: cover; /* Adjust the background size as needed */
+    background-position: center; /* Adjust the background position as needed */
+    background-repeat: no-repeat;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    /* Add responsive styles for screens with a max width of 768px */
+    .container {
+        flex-direction: column; /* Stack cards vertically */
+    }
+}
+
+  

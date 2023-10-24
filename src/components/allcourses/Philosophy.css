@@ -1,0 +1,95 @@
+/* Philosophy.css */
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .search-container input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 25px;
+  }
+  
+
+  .search-container input {
+    height: 40px;
+  }
+  .courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px ;
+  }
+
+
+  
+  .course-card {
+    width: calc(23.23% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .course-card:hover {
+    box-shadow: 1px 1px 5px 5px rgb(134, 134, 131);
+    transform: scale(1.0); /* Apply zoom-out effect */
+  }
+
+
+  
+  .course-card video {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .course-card h3 {
+    margin: 10px 0;
+  }
+  
+  .course-card p {
+    margin: 5px 0;
+  }
+  
+  .star-rating {
+    color: #f39c12;
+    margin: 5px 0;
+  }
+  
+  .star {
+    margin-right: 2px;
+  }
+  
+  .enroll_btn {
+    background-color: #42356f;
+    color: gold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .enroll_btn:hover {
+    background-color: #35444f;
+  }
+
+  
+
+
+  @media screen and (max-width: 768px) {
+    .courses-container {
+      justify-content: center; /* Center the course cards */
+    }
+  
+    .course-card {
+      width: 100%; /* Full width for single column layout */
+      margin: 10px 0; /* Adjust margin for spacing */
+    }
+  }
+
+  
+  

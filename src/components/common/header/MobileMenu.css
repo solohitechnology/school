@@ -1,0 +1,29 @@
+.mobile-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+  
+  .mobile-menu.visible {
+    display: block;
+    /* Add styling for the visible mobile menu */
+  }
+  
+  .mobile-menu li {
+    padding: 10px 20px;
+  }
+  
+  .mobile-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    transition: color 0.2s ease;
+  }
+  
+  .mobile-menu a:hover {
+    color: white;
+  }
+  
